@@ -1,4 +1,3 @@
-
 const handleClickOnGirl = () => {
     let randomColor = "rgb(" + String( Math.floor(256*Math.random()))+ "," 
     + String(Math.floor(256*Math.random()))+ ","+ String(Math.floor(256*Math.random())) + ")";
@@ -6,6 +5,17 @@ const handleClickOnGirl = () => {
     number.style.color = randomColor;
     saved.style.color = randomColor;
     console.log( randomColor);
+}
+
+const decrementNumber = () => {
+    let number = document.getElementById("number");
+    number.textContent = String(Number(number.textContent) - 1)
+}
+
+const reset = () => {
+    let number = document.getElementById("number");
+    number.textContent = "42"
+
 }
 
 const incrementButton = document.getElementById("increment-button");
