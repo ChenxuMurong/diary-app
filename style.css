@@ -15,6 +15,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10pt;
     height: 3in;
 }
 
@@ -22,7 +23,17 @@
     cursor: pointer;
 }
 
+.container{
+    border: 1px solid blue;
+    border-radius: 10%;
+    background-color: aliceblue;
+    max-width: 60%;
+    margin: auto;
+}
+
 p{
+    font-weight: 300;
+    color: #000;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -36,8 +47,10 @@ button{
     margin-left: auto;
 }
 
+
 body{
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-vector%2Fsci-fi-background-binary-computer-code-green-digital-numbers-matrix-binary-numbers-futuristic-hacker-abstraction-backdrop-random-numbers-falling-dark-background_257312-6.jpg&f=1&nofb=1&ipt=ff021cb7ee5fe92c7dc0a1e1249974cdb9ba7b915a66f96d19c1bb0b31dfc889&ipo=images);
+    font-family: 'Courier New', Courier, monospace;
     background-size: cover;
     color: whitesmoke;
     background-color: #000;
