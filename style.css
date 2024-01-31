@@ -1,6 +1,6 @@
 .general-head{
     font-family: "Lucida Console", "Courier New", monospace;
-    color: whitesmoke;
+    color: #000;
     text-align: center;
 }
 
@@ -11,17 +11,6 @@
     cursor: pointer;
 }
 
-#girl-pic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10pt;
-    height: 3in;
-}
-
-.scifi-img:hover{
-    cursor: pointer;
-}
 
 .container{
     border: 1px solid blue;
@@ -49,7 +38,7 @@ button{
 
 
 body{
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-vector%2Fsci-fi-background-binary-computer-code-green-digital-numbers-matrix-binary-numbers-futuristic-hacker-abstraction-backdrop-random-numbers-falling-dark-background_257312-6.jpg&f=1&nofb=1&ipt=ff021cb7ee5fe92c7dc0a1e1249974cdb9ba7b915a66f96d19c1bb0b31dfc889&ipo=images);
+    background-image: linear-gradient(to bottom right, purple, black);
     font-family: 'Courier New', Courier, monospace;
     background-size: cover;
     color: whitesmoke;

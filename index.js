@@ -4,7 +4,7 @@ const handleClickOnGirl = () => {
 
     number.style.color = randomColor;
     saved.style.color = randomColor;
-    console.log( randomColor);
+    console.log(randomColor);
 }
 
 const decrementNumber = () => {
@@ -15,7 +15,6 @@ const decrementNumber = () => {
 const reset = () => {
     let number = document.getElementById("number");
     number.textContent = "42"
-
 }
 
 const incrementButton = document.getElementById("increment-button");
